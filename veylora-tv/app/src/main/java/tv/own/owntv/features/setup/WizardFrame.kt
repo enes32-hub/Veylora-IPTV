@@ -33,6 +33,8 @@ import androidx.compose.ui.unit.em
 import androidx.tv.material3.Text
 import tv.own.owntv.R
 import tv.own.owntv.ui.components.OwnTVIcon
+import tv.own.owntv.ui.components.BrandMark
+import tv.own.owntv.ui.components.rememberAppliedIcon
 import tv.own.owntv.ui.stage.StageFocus
 import tv.own.owntv.ui.stage.StageKeyHints
 import tv.own.owntv.ui.stage.StagePill
@@ -51,7 +53,7 @@ internal class WizardAction(val label: String, val onClick: () -> Unit, val focu
 internal enum class WizardStep { LANGUAGE, DISPLAY, PROFILE, PLAYLIST, READY }
 
 /**
- * Every setup step's frame (P10B-W1 … W9): the Stage background, the OwnTV lockup top left, the step
+ * Every setup step's frame (P10B-W1 … W9): the Stage background, the application logo top left, the step
  * dots top right, one glass panel (1040 wide, centred, from y 170) with a 42 px title, 19 px text and the
  * step's rows or cards, then [back] bottom-left and [next] bottom-right, and the key hints at the bottom.
  * Back on the remote calls [back] (or [onBack] where the step has no Back button).
@@ -72,15 +74,13 @@ internal fun WizardFrame(
     if (onBack != null) BackHandler { onBack() }
     val a = stageAccent
     BoxWithConstraints(Modifier.fillMaxSize().stageBackground(a.accent)) {
-        // The OwnTV lockup: the play mark on its cream tile, the name beside it.
+        // Use the same transparent brand mark as the rest of the application.
         Row(
             Modifier.padding(start = 64.mpx, top = 56.mpx),
             horizontalArrangement = Arrangement.spacedBy(14.mpx),
             verticalAlignment = Alignment.CenterVertically,
         ) {
-            Box(Modifier.size(44.mpx).background(LockupTile, RoundedCornerShape(12.mpx)), contentAlignment = Alignment.Center) {
-                OwnTVIcon(OwnTVIcon.PLAY, LockupMark, Modifier.size(22.mpx))
-            }
+            BrandMark(rememberAppliedIcon(), 44.mpx)
             Text(stringResource(R.string.app_name), style = stageText(24, 800), color = StageColors.Text, maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
         StepDots(step, Modifier.align(Alignment.TopEnd).padding(end = 64.mpx, top = 66.mpx))
@@ -183,8 +183,6 @@ internal fun WizardCards(cards: List<WizardCard>, firstFocus: FocusRequester? = 
     }
 }
 
-private val LockupTile = Color(0xFFEFE6D2)
-private val LockupMark = Color(0xFF14535C)
 
 @Composable
 private fun Float.mpxLine() = with(androidx.compose.ui.platform.LocalDensity.current) { this@mpxLine.mpx.toSp() }

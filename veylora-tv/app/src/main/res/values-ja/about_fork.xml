@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="about_fork_summary">OwnTVを基にした独立したアプリで、GNU GPLv3に基づき配布されます。同ライセンスの条件で複製・変更・再配布できます。法律で認められる範囲で無保証です。</string>
-    <string name="about_fork_source_pending">このバージョンのソースコードは未公開です。一般配布前に対応するソースとビルド手順を公開する必要があります。</string>
     <string name="about_fork_license">GPLv3ライセンス</string>
     <string name="about_fork_upstream">元のプロジェクト</string>
     <string name="about_fork_community">OwnTVコミュニティ</string>

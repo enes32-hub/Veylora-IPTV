@@ -1,5 +1,9 @@
 package tv.own.owntv.features.more
 
+import android.content.ActivityNotFoundException
+import android.content.Intent
+import android.net.Uri
+
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -44,6 +48,7 @@ import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
@@ -634,6 +639,10 @@ internal fun AboutPage(vm: MoreCountsViewModel, entry: FocusRequester, onOpenLan
     val accent = stageAccent.accent
     val context = LocalContext.current
     var showLicense by remember { mutableStateOf(false) }
+    val sourceUrl = stringResource(R.string.about_fork_source_url)
+    val sourceQr = remember(sourceUrl) {
+        tv.own.owntv.core.companion.CompanionLink.renderQr(sourceUrl)?.asImageBitmap()
+    }
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).focusGroup(), verticalArrangement = Arrangement.spacedBy(18.mpx)) {
         Row(horizontalArrangement = Arrangement.spacedBy(28.mpx), verticalAlignment = Alignment.CenterVertically) {
             BrandMark(rememberAppliedIcon(), 116.mpx)
@@ -656,10 +665,27 @@ internal fun AboutPage(vm: MoreCountsViewModel, entry: FocusRequester, onOpenLan
             }
         }
         StageTile(Modifier.fillMaxWidth()) {
-            Column(verticalArrangement = Arrangement.spacedBy(6.mpx)) {
-                Text(stringResource(R.string.about_fork_source), style = stageText(20, 700), color = StageColors.Text)
-                Text(stringResource(R.string.about_fork_source_pending), style = stageText(16, 500),
-                    color = StageColors.Muted)
+            Row(horizontalArrangement = Arrangement.spacedBy(20.mpx), verticalAlignment = Alignment.CenterVertically) {
+                sourceQr?.let { qr ->
+                    Image(qr, stringResource(R.string.about_fork_source),
+                        Modifier.size(112.mpx).background(Color.White).padding(4.mpx))
+                }
+                Column(verticalArrangement = Arrangement.spacedBy(6.mpx)) {
+                    StageTool(
+                        stringResource(R.string.about_fork_pair, stringResource(R.string.app_name), stringResource(R.string.about_fork_source)),
+                        onClick = {
+                            try {
+                                context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(sourceUrl)))
+                            } catch (_: ActivityNotFoundException) {
+                                // Android TV may have no browser; the URL and QR remain accessible.
+                                android.widget.Toast.makeText(context, sourceUrl, android.widget.Toast.LENGTH_LONG).show()
+                            }
+                        },
+                        icon = OwnTVIcon.INFO, boxed = true, modifier = Modifier.focusRequester(entry),
+                    )
+                    Text(sourceUrl, style = stageText(16, 500), color = accent)
+                    Text(stringResource(R.string.more_about_scan), style = stageText(14, 500), color = StageColors.Muted)
+                }
             }
         }
         Row(horizontalArrangement = Arrangement.spacedBy(18.mpx)) {
@@ -686,7 +712,7 @@ internal fun AboutPage(vm: MoreCountsViewModel, entry: FocusRequester, onOpenLan
         }
         Row(horizontalArrangement = Arrangement.spacedBy(16.mpx)) {
             StageTool(stringResource(R.string.about_fork_license), onClick = { showLicense = true },
-                icon = OwnTVIcon.INFO, boxed = true, modifier = Modifier.focusRequester(entry))
+                icon = OwnTVIcon.INFO, boxed = true)
             val languages = SupportedLocales.all.count { it.packaged }
             StageTool(pluralStringResource(R.plurals.more_about_languages, languages, languages),
                 onClick = onOpenLanguage, icon = OwnTVIcon.LIST, boxed = true)

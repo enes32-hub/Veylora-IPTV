@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="about_fork_summary">基于 OwnTV 的独立应用，依照 GNU GPLv3 分发。可按许可条款复制、修改及重新分发。在法律允许的范围内不提供保证。</string>
-    <string name="about_fork_source_pending">此版本的源代码尚未发布。公开分发前必须提供对应源代码及构建说明。</string>
     <string name="about_fork_license">GPLv3 许可证</string>
     <string name="about_fork_upstream">原始项目</string>
     <string name="about_fork_community">OwnTV 社区</string>

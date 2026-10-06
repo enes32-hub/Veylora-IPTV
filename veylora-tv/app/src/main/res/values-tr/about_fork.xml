@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="about_fork_summary">OwnTV temel alınarak geliştirilmiş bağımsız bir uygulamadır ve GNU GPLv3 kapsamında dağıtılır. Lisans koşullarıyla kopyalayabilir, değiştirebilir ve yeniden dağıtabilirsiniz. Hukukun izin verdiği ölçüde garanti verilmez.</string>
-    <string name="about_fork_source_pending">Bu sürümün kaynak kodu henüz yayımlanmadı. Genel dağıtımdan önce sürüme karşılık gelen kaynak ve derleme bilgileri erişilebilir olmalıdır.</string>
     <string name="about_fork_license">GPLv3 lisansı</string>
     <string name="about_fork_upstream">Özgün proje</string>
     <string name="about_fork_community">OwnTV topluluğu</string>

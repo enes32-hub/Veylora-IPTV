@@ -7,7 +7,7 @@
     <string name="about_fork_revision" translatable="false">Veylora IPTV · 1.0.0 · 2026-10-05</string>
     <string name="about_fork_dependencies" translatable="false">OwnTV / OwnTV_core · GPLv3\nmpv / FFmpeg · GPLv3\nlibmpv wrapper · MIT · Media3 · Apache-2.0</string>
     <string name="about_fork_summary">An independent application based on OwnTV, distributed under GNU GPLv3. You may copy, modify and redistribute it under that license. No warranty is provided, to the extent permitted by law.</string>
-    <string name="about_fork_source_pending">Source code for this version is not published yet. The matching source and build instructions must be available before public distribution.</string>
+    <string name="about_fork_source_url" translatable="false">https://github.com/enes32-hub/Veylora-IPTV</string>
     <string name="about_fork_license">GPLv3 license</string>
     <string name="about_fork_upstream">Original project</string>
     <string name="about_fork_community">OwnTV community</string>
