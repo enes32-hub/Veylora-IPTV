@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_refresh_frequency">স্বয়ংক্রিয় রিফ্রেশের ব্যবধান</string>
+    <string name="veylora_refresh_now">এখনই রিফ্রেশ করুন</string>
+    <string name="veylora_refresh_scope">এই প্রোফাইলের বর্তমান তালিকায় প্রযোজ্য। অ্যাপ খোলা বা ফিরে আসার সময় পরীক্ষা করা হয়।</string>
+    <string name="veylora_refresh_now_description">পছন্দ ও ইতিহাস না মুছে সর্বশেষ চ্যানেল, চলচ্চিত্র ও সিরিজ আনুন।</string>
+</resources>

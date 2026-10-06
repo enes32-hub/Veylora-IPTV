@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_refresh_frequency">자동 새로고침 주기</string>
+    <string name="veylora_refresh_now">지금 새로고침</string>
+    <string name="veylora_refresh_scope">이 프로필의 현재 목록에 적용됩니다. 앱을 열거나 다시 사용할 때 확인합니다.</string>
+    <string name="veylora_refresh_now_description">즐겨찾기나 기록을 삭제하지 않고 최신 채널, 영화 및 시리즈를 가져옵니다.</string>
+</resources>

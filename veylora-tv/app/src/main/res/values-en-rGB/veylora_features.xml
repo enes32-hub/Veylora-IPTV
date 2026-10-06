@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_popular_movies">Popular films</string>
+    <string name="veylora_popular_series">Popular series</string>
+    <string name="veylora_sort_popular">Popular</string>
+    <string name="veylora_sort_random">Random</string>
+    <string name="veylora_filters">Filters</string>
+    <string name="veylora_filter_any">Any</string>
+    <string name="veylora_filter_genre">Genre</string>
+    <string name="veylora_filter_min_year">From year</string>
+    <string name="veylora_filter_max_year">Through year</string>
+    <string name="veylora_filter_min_rating">Minimum rating</string>
+    <string name="veylora_filter_max_rating">Maximum rating</string>
+    <string name="veylora_filter_apply">Apply</string>
+    <string name="veylora_filter_clear">Clear filters</string>
+    <string name="veylora_catalog_load_failed">Could not load the catalogue.</string>
+    <string name="veylora_catalog_retry">Try again</string>
+    <string name="veylora_filter_watched">Watch status</string>
+    <string name="veylora_watched">Watched</string>
+    <string name="veylora_unwatched">Unwatched</string>
+    <string name="veylora_empty">No results found</string>
+    <string name="veylora_toolbar_label">Top bar</string>
+    <string name="player_black_screen">Black screen</string>
+    <string name="veylora_filter_minus">−</string>
+    <string name="veylora_filter_plus">+</string>
+    <string name="veylora_genre_coverage">Genres are available for titles with loaded details. The genre filter excludes titles without genre data. Clear the filter to see all titles.</string>
+</resources>

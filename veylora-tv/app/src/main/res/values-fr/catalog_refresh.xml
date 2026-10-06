@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_refresh_frequency">Fréquence de mise à jour automatique</string>
+    <string name="veylora_refresh_now">Actualiser maintenant</string>
+    <string name="veylora_refresh_scope">Concerne les listes actuelles de ce profil. Vérification à chaque ouverture ou reprise.</string>
+    <string name="veylora_refresh_now_description">Récupérer les chaînes, films et séries récents sans effacer les favoris ni l’historique.</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_toolbar_label">Üst çubuk</string>
+    <string name="home_row_now_trending">Popüler filmler ve diziler</string>
+    <string name="settings_about_license">© 2026 OwnTV · GPLv3</string>
+    <string name="setup_disclaimer">Veylora IPTV yalnızca bir medya oynatıcısıdır. Hiçbir kanal, oynatma listesi veya içerik içermez. Yasal olarak erişebildiğiniz kendi Xtream, M3U veya Stalker kaynaklarınızı eklemek sizin sorumluluğunuzdadır.</string>
+    <string name="setup_set_up_owntv">Veylora IPTV\'yi kurun</string>
+    <string name="setup_byo_source_description">Veylora IPTV bir oynatıcıdır — kendi Xtream, M3U veya Stalker kaynağınızı ekleyin.</string>
+    <string name="setup_welcome_title">Veylora IPTV’ye hoş geldiniz</string>
+    <string name="setup_line_app_icon">Televizyon ana ekranında Veylora IPTV’nin nasıl göründüğü</string>
+    <string name="veylora_genre_coverage">Türler, ayrıntıları yüklenmiş yapımları kapsar. Tür filtresi açıkken tür bilgisi olmayan yapımlar gösterilmez. Tümünü görmek için filtreyi temizleyin.</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_refresh_frequency">സ്വയമേവ പുതുക്കുന്ന ഇടവേള</string>
+    <string name="veylora_refresh_now">ഇപ്പോൾ പുതുക്കുക</string>
+    <string name="veylora_refresh_scope">ഈ പ്രൊഫൈലിലെ നിലവിലെ പട്ടികകൾക്ക് ബാധകം. ആപ്പ് തുറക്കുമ്പോഴോ തിരികെ വരുമ്പോഴോ പരിശോധിക്കും.</string>
+    <string name="veylora_refresh_now_description">പ്രിയപ്പെട്ടവയും ചരിത്രവും മായ്ക്കാതെ പുതിയ ചാനലുകളും സിനിമകളും സീരീസുകളും ലഭ്യമാക്കുക.</string>
+</resources>

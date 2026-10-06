@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_popular_movies">Popularne filmy</string>
+    <string name="veylora_popular_series">Popularne seriale</string>
+    <string name="veylora_sort_popular">Popularne</string>
+    <string name="veylora_sort_random">Losowo</string>
+    <string name="veylora_filters">Filtry</string>
+    <string name="veylora_filter_any">Dowolne</string>
+    <string name="veylora_filter_genre">Gatunek</string>
+    <string name="veylora_filter_min_year">Od roku</string>
+    <string name="veylora_filter_max_year">Do roku</string>
+    <string name="veylora_filter_min_rating">Minimalna ocena</string>
+    <string name="veylora_filter_max_rating">Maksymalna ocena</string>
+    <string name="veylora_filter_apply">Zastosuj</string>
+    <string name="veylora_filter_clear">Wyczyść filtry</string>
+    <string name="veylora_catalog_load_failed">Nie udało się wczytać katalogu.</string>
+    <string name="veylora_catalog_retry">Spróbuj ponownie</string>
+    <string name="veylora_filter_watched">Stan oglądania</string>
+    <string name="veylora_watched">Obejrzane</string>
+    <string name="veylora_unwatched">Nieobejrzane</string>
+    <string name="veylora_empty">Brak wyników</string>
+    <string name="veylora_toolbar_label">Górny pasek</string>
+    <string name="player_black_screen">Przyciemnij ekran</string>
+    <string name="veylora_filter_minus">−</string>
+    <string name="veylora_filter_plus">+</string>
+    <string name="veylora_genre_coverage">Gatunki są dostępne dla tytułów z wczytanymi szczegółami. Aktywny filtr gatunku wyklucza tytuły bez gatunku. Wyczyść filtr, aby zobaczyć wszystkie.</string>
+</resources>

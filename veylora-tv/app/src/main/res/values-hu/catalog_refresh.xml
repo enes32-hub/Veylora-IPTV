@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_refresh_frequency">Automatikus frissítés gyakorisága</string>
+    <string name="veylora_refresh_now">Frissítés most</string>
+    <string name="veylora_refresh_scope">A profil jelenlegi listáira vonatkozik. Ellenőrzés az alkalmazás megnyitásakor vagy folytatásakor.</string>
+    <string name="veylora_refresh_now_description">Új csatornák, filmek és sorozatok betöltése a kedvencek és az előzmények törlése nélkül.</string>
+</resources>

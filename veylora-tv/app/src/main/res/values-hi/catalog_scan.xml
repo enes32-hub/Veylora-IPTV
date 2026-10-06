@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="catalog_scan_running">TMDB जानकारी अपडेट हो रही है: %1$d / %2$d · %3$d%%</string>
+    <string name="catalog_scan_done">TMDB अपडेट पूरा हुआ: %1$d / %2$d · %3$d%%</string>
+    <string name="catalog_scan_retry">TMDB दोबारा प्रयास की प्रतीक्षा में: %1$d / %2$d · %3$d%%</string>
+</resources>

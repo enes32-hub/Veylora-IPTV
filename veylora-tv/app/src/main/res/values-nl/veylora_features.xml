@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_popular_movies">Populaire films</string>
+    <string name="veylora_popular_series">Populaire series</string>
+    <string name="veylora_sort_popular">Populair</string>
+    <string name="veylora_sort_random">Willekeurig</string>
+    <string name="veylora_filters">Filters</string>
+    <string name="veylora_filter_any">Maakt niet uit</string>
+    <string name="veylora_filter_genre">Genre</string>
+    <string name="veylora_filter_min_year">Vanaf jaar</string>
+    <string name="veylora_filter_max_year">Tot en met jaar</string>
+    <string name="veylora_filter_min_rating">Minimumscore</string>
+    <string name="veylora_filter_max_rating">Maximumscore</string>
+    <string name="veylora_filter_apply">Toepassen</string>
+    <string name="veylora_filter_clear">Filters wissen</string>
+    <string name="veylora_catalog_load_failed">Catalogus kon niet worden geladen.</string>
+    <string name="veylora_catalog_retry">Opnieuw proberen</string>
+    <string name="veylora_filter_watched">Kijkstatus</string>
+    <string name="veylora_watched">Bekeken</string>
+    <string name="veylora_unwatched">Niet bekeken</string>
+    <string name="veylora_empty">Geen resultaten</string>
+    <string name="veylora_toolbar_label">Bovenbalk</string>
+    <string name="player_black_screen">Scherm verduisteren</string>
+    <string name="veylora_filter_minus">−</string>
+    <string name="veylora_filter_plus">+</string>
+    <string name="veylora_genre_coverage">Genres zijn beschikbaar voor titels met geladen details. Het genrefilter verbergt titels zonder genre. Wis het filter om alles te zien.</string>
+</resources>

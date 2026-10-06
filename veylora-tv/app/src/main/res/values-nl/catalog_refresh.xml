@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_refresh_frequency">Interval voor automatisch vernieuwen</string>
+    <string name="veylora_refresh_now">Nu vernieuwen</string>
+    <string name="veylora_refresh_scope">Geldt voor de huidige lijsten van dit profiel. Gecontroleerd bij openen of hervatten van de app.</string>
+    <string name="veylora_refresh_now_description">Haal de nieuwste zenders, films en series op zonder favorieten of geschiedenis te wissen.</string>
+</resources>

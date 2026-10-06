@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_fork_summary">Az OwnTV-re épülő független alkalmazás GNU GPLv3 licenccel. A licenc szerint másolható, módosítható és terjeszthető. A jog által megengedett mértékben nincs garancia.</string>
+    <string name="about_fork_source_pending">A verzió forráskódja még nincs közzétéve. Nyilvános terjesztés előtt a megfelelő kódnak és fordítási útmutatónak elérhetőnek kell lennie.</string>
+    <string name="about_fork_license">GPLv3 licenc</string>
+    <string name="about_fork_upstream">Eredeti projekt</string>
+    <string name="about_fork_community">OwnTV közösség</string>
+    <string name="about_fork_source">Forráskód</string>
+    <string name="about_fork_changes">Módosítások</string>
+</resources>

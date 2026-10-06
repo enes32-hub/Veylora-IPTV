@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_sort_popular">Popüler</string>
+    <string name="veylora_sort_random">Rastgele</string>
+    <string name="veylora_filters">Filtreler</string>
+    <string name="veylora_filter_any">Fark etmez</string>
+    <string name="veylora_filter_genre">Tür</string>
+    <string name="veylora_filter_min_year">Başlangıç yılı</string>
+    <string name="veylora_filter_max_year">Bitiş yılı</string>
+    <string name="veylora_filter_min_rating">En düşük puan</string>
+    <string name="veylora_filter_max_rating">En yüksek puan</string>
+    <string name="veylora_filter_apply">Uygula</string>
+    <string name="veylora_filter_clear">Tüm sınırları kaldır</string>
+    <string name="veylora_filter_minus">−</string>
+    <string name="veylora_filter_plus">+</string>
+    <string name="veylora_catalog_load_failed">Katalog yüklenemedi.</string>
+    <string name="veylora_catalog_retry">Tekrar dene</string>
+    <string name="veylora_filter_watched">İzlenme durumu</string>
+    <string name="veylora_watched">İzlenenler</string>
+    <string name="veylora_unwatched">İzlenmeyenler</string>
+    <string name="veylora_empty">Sonuç bulunamadı</string>
+</resources>

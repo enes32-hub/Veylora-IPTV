@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_popular_movies">人気の映画</string>
+    <string name="veylora_popular_series">人気のシリーズ</string>
+    <string name="veylora_sort_popular">人気順</string>
+    <string name="veylora_sort_random">ランダム</string>
+    <string name="veylora_filters">フィルター</string>
+    <string name="veylora_filter_any">指定なし</string>
+    <string name="veylora_filter_genre">ジャンル</string>
+    <string name="veylora_filter_min_year">開始年</string>
+    <string name="veylora_filter_max_year">終了年</string>
+    <string name="veylora_filter_min_rating">最低評価</string>
+    <string name="veylora_filter_max_rating">最高評価</string>
+    <string name="veylora_filter_apply">適用</string>
+    <string name="veylora_filter_clear">フィルターを解除</string>
+    <string name="veylora_catalog_load_failed">カタログを読み込めませんでした。</string>
+    <string name="veylora_catalog_retry">再試行</string>
+    <string name="veylora_filter_watched">視聴状況</string>
+    <string name="veylora_watched">視聴済み</string>
+    <string name="veylora_unwatched">未視聴</string>
+    <string name="veylora_empty">結果がありません</string>
+    <string name="veylora_toolbar_label">上部バー</string>
+    <string name="player_black_screen">画面を暗くする</string>
+    <string name="veylora_filter_minus">−</string>
+    <string name="veylora_filter_plus">+</string>
+    <string name="veylora_genre_coverage">詳細を読み込んだ作品にはジャンル情報があります。ジャンルで絞り込むと、ジャンル不明の作品は表示されません。すべて表示するにはフィルターを解除してください。</string>
+</resources>

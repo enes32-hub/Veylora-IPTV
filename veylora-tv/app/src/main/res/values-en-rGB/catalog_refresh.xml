@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_refresh_frequency">Automatic refresh frequency</string>
+    <string name="veylora_refresh_now">Refresh now</string>
+    <string name="veylora_refresh_scope">Applies to current playlists in this profile. Checked when the app opens or resumes.</string>
+    <string name="veylora_refresh_now_description">Fetch the latest channels, films and series without clearing your favourites or history.</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_fork_tmdb_name" translatable="false">TMDB</string>
+    <string name="about_fork_tmdb_notice" translatable="false">This application uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB.</string>
+    <string name="about_fork_name" translatable="false">OwnTV</string>
+    <string name="about_fork_pair" translatable="false">%1$s: %2$s</string>
+    <string name="about_fork_revision" translatable="false">Veylora IPTV · 1.0.0 · 2026-10-05</string>
+    <string name="about_fork_dependencies" translatable="false">OwnTV / OwnTV_core · GPLv3\nmpv / FFmpeg · GPLv3\nlibmpv wrapper · MIT · Media3 · Apache-2.0</string>
+    <string name="about_fork_summary">An independent application based on OwnTV, distributed under GNU GPLv3. You may copy, modify and redistribute it under that license. No warranty is provided, to the extent permitted by law.</string>
+    <string name="about_fork_source_pending">Source code for this version is not published yet. The matching source and build instructions must be available before public distribution.</string>
+    <string name="about_fork_license">GPLv3 license</string>
+    <string name="about_fork_upstream">Original project</string>
+    <string name="about_fork_community">OwnTV community</string>
+    <string name="about_fork_source">Source code</string>
+    <string name="about_fork_changes">Changes</string>
+</resources>

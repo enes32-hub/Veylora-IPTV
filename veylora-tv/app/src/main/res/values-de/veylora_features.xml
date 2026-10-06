@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_popular_movies">Beliebte Filme</string>
+    <string name="veylora_popular_series">Beliebte Serien</string>
+    <string name="veylora_sort_popular">Beliebt</string>
+    <string name="veylora_sort_random">Zufällig</string>
+    <string name="veylora_filters">Filter</string>
+    <string name="veylora_filter_any">Beliebig</string>
+    <string name="veylora_filter_genre">Genre</string>
+    <string name="veylora_filter_min_year">Ab Jahr</string>
+    <string name="veylora_filter_max_year">Bis Jahr</string>
+    <string name="veylora_filter_min_rating">Mindestbewertung</string>
+    <string name="veylora_filter_max_rating">Höchstbewertung</string>
+    <string name="veylora_filter_apply">Anwenden</string>
+    <string name="veylora_filter_clear">Filter zurücksetzen</string>
+    <string name="veylora_catalog_load_failed">Katalog konnte nicht geladen werden.</string>
+    <string name="veylora_catalog_retry">Erneut versuchen</string>
+    <string name="veylora_filter_watched">Wiedergabestatus</string>
+    <string name="veylora_watched">Angesehen</string>
+    <string name="veylora_unwatched">Nicht angesehen</string>
+    <string name="veylora_empty">Keine Ergebnisse</string>
+    <string name="veylora_toolbar_label">Obere Leiste</string>
+    <string name="player_black_screen">Bildschirm abdunkeln</string>
+    <string name="veylora_filter_minus">−</string>
+    <string name="veylora_filter_plus">+</string>
+    <string name="veylora_genre_coverage">Genres sind für Titel mit geladenen Details verfügbar. Bei aktivem Genrefilter werden Titel ohne Genre ausgeblendet. Setzen Sie den Filter zurück, um alle zu sehen.</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_fork_summary">تطبيق مستقل مبني على OwnTV وموزع بموجب GNU GPLv3. يمكنك نسخه وتعديله وإعادة توزيعه وفق الترخيص. لا ضمان بالقدر الذي يسمح به القانون.</string>
+    <string name="about_fork_source_pending">لم تُنشر الشيفرة المصدرية لهذا الإصدار بعد. يجب إتاحة الشيفرة المطابقة وتعليمات البناء قبل التوزيع العام.</string>
+    <string name="about_fork_license">ترخيص GPLv3</string>
+    <string name="about_fork_upstream">المشروع الأصلي</string>
+    <string name="about_fork_community">مجتمع OwnTV</string>
+    <string name="about_fork_source">الشيفرة المصدرية</string>
+    <string name="about_fork_changes">التغييرات</string>
+</resources>

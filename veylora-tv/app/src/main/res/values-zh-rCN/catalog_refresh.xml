@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_refresh_frequency">自动刷新频率</string>
+    <string name="veylora_refresh_now">立即刷新</string>
+    <string name="veylora_refresh_scope">适用于此个人资料的现有列表。在打开或返回应用时检查。</string>
+    <string name="veylora_refresh_now_description">获取最新频道、电影和剧集，不清除收藏或历史记录。</string>
+</resources>

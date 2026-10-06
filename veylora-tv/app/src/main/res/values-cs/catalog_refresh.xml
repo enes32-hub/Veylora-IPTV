@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_refresh_frequency">Interval automatické aktualizace</string>
+    <string name="veylora_refresh_now">Aktualizovat nyní</string>
+    <string name="veylora_refresh_scope">Platí pro současné seznamy tohoto profilu. Kontroluje se při otevření aplikace nebo návratu do ní.</string>
+    <string name="veylora_refresh_now_description">Načte nejnovější kanály, filmy a seriály bez smazání oblíbených a historie.</string>
+</resources>

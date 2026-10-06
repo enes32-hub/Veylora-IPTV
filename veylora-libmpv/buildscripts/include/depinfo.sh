@@ -1,0 +1,43 @@
+#!/bin/bash -e
+
+## Dependency versions
+
+v_platform=android-36
+v_sdk=14742923_latest
+v_ndk=30.0.16248370
+v_sdk_build_tools=37.0.0
+v_cmake=4.1.2
+
+v_lua=5.2.4
+v_libunibreak=8_0
+v_libass=0.17.5
+v_harfbuzz=14.5.0
+v_fribidi=1.0.17
+v_freetype=2-14-3
+v_libxml2=2.15.4
+v_fontconfig=2.18.3
+v_mbedtls=3.6.7
+v_libplacebo=7.360.1
+v_dav1d=1.5.4
+v_ffmpeg=9.0.2
+# mpv is pinned to a commit on master, not a release tag: mpv makes no point releases, so every fix
+# after a release reaches users only through master. Bumped monthly — see UPDATING.md.
+v_mpv=3186d369f9f090cd1363be0ac46a037824b702c6
+
+
+## Dependency tree
+# I would've used a dict but putting arrays in a dict is not a thing
+
+dep_mbedtls=()
+dep_dav1d=()
+dep_ffmpeg=(mbedtls dav1d libxml2)
+dep_freetype2=()
+dep_fontconfig=(libxml2 freetype)
+dep_fribidi=()
+dep_harfbuzz=()
+dep_libunibreak=()
+dep_libass=(freetype fontconfig fribidi harfbuzz libunibreak)
+dep_lua=()
+dep_libplacebo=()
+dep_mpv=(ffmpeg libass lua libplacebo)
+dep_mpv_android=(mpv)

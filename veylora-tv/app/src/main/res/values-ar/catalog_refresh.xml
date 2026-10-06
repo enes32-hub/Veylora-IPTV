@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_refresh_frequency">تكرار التحديث التلقائي</string>
+    <string name="veylora_refresh_now">تحديث الآن</string>
+    <string name="veylora_refresh_scope">ينطبق على قوائم هذا الملف الشخصي الحالية. يُفحص عند فتح التطبيق أو العودة إليه.</string>
+    <string name="veylora_refresh_now_description">جلب أحدث القنوات والأفلام والمسلسلات دون حذف المفضلة أو السجل.</string>
+</resources>

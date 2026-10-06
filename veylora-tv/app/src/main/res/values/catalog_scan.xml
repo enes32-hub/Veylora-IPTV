@@ -1,0 +1,5 @@
+<resources>
+    <string name="catalog_scan_running">TMDB scan: %1$d / %2$d · %3$d%%</string>
+    <string name="catalog_scan_done">TMDB scan complete: %1$d / %2$d · %3$d%%</string>
+    <string name="catalog_scan_retry">TMDB scan waiting to retry: %1$d / %2$d · %3$d%%</string>
+</resources>

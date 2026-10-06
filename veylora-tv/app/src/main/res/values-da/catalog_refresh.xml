@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_refresh_frequency">Interval for automatisk opdatering</string>
+    <string name="veylora_refresh_now">Opdater nu</string>
+    <string name="veylora_refresh_scope">Gælder profilens nuværende lister. Kontrolleres, når appen åbnes eller genoptages.</string>
+    <string name="veylora_refresh_now_description">Hent de nyeste kanaler, film og serier uden at slette favoritter eller historik.</string>
+</resources>

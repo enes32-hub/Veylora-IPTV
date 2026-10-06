@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_popular_movies">Популярные фильмы</string>
+    <string name="veylora_popular_series">Популярные сериалы</string>
+    <string name="veylora_sort_popular">Популярные</string>
+    <string name="veylora_sort_random">Случайно</string>
+    <string name="veylora_filters">Фильтры</string>
+    <string name="veylora_filter_any">Неважно</string>
+    <string name="veylora_filter_genre">Жанр</string>
+    <string name="veylora_filter_min_year">С года</string>
+    <string name="veylora_filter_max_year">По год</string>
+    <string name="veylora_filter_min_rating">Минимальная оценка</string>
+    <string name="veylora_filter_max_rating">Максимальная оценка</string>
+    <string name="veylora_filter_apply">Применить</string>
+    <string name="veylora_filter_clear">Сбросить фильтры</string>
+    <string name="veylora_catalog_load_failed">Не удалось загрузить каталог.</string>
+    <string name="veylora_catalog_retry">Повторить</string>
+    <string name="veylora_filter_watched">Статус просмотра</string>
+    <string name="veylora_watched">Просмотрено</string>
+    <string name="veylora_unwatched">Не просмотрено</string>
+    <string name="veylora_empty">Ничего не найдено</string>
+    <string name="veylora_toolbar_label">Верхняя панель</string>
+    <string name="player_black_screen">Затемнить экран</string>
+    <string name="veylora_filter_minus">−</string>
+    <string name="veylora_filter_plus">+</string>
+    <string name="veylora_genre_coverage">Жанры доступны для произведений с загруженными сведениями. Фильтр жанра исключает произведения без жанра. Сбросьте фильтр, чтобы увидеть все.</string>
+</resources>

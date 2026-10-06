@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_refresh_frequency">Automatisches Aktualisierungsintervall</string>
+    <string name="veylora_refresh_now">Jetzt aktualisieren</string>
+    <string name="veylora_refresh_scope">Gilt für die aktuellen Listen dieses Profils. Prüfung beim Öffnen oder Fortsetzen der App.</string>
+    <string name="veylora_refresh_now_description">Neueste Sender, Filme und Serien laden, ohne Favoriten oder Verlauf zu löschen.</string>
+</resources>

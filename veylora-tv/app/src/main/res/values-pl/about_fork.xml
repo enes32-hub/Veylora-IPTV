@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_fork_summary">Niezależna aplikacja oparta na OwnTV, na licencji GNU GPLv3. Można ją kopiować, zmieniać i rozpowszechniać zgodnie z licencją. Bez gwarancji w zakresie dozwolonym prawem.</string>
+    <string name="about_fork_source_pending">Kod źródłowy tej wersji nie został jeszcze opublikowany. Odpowiedni kod i instrukcje kompilacji muszą być dostępne przed publiczną dystrybucją.</string>
+    <string name="about_fork_license">Licencja GPLv3</string>
+    <string name="about_fork_upstream">Oryginalny projekt</string>
+    <string name="about_fork_community">Społeczność OwnTV</string>
+    <string name="about_fork_source">Kod źródłowy</string>
+    <string name="about_fork_changes">Zmiany</string>
+</resources>

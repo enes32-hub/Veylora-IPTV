@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="catalog_scan_running">Oppdaterer TMDB-informasjon: %1$d / %2$d · %3$d%%</string>
+    <string name="catalog_scan_done">TMDB-oppdatering fullført: %1$d / %2$d · %3$d%%</string>
+    <string name="catalog_scan_retry">TMDB venter på nytt forsøk: %1$d / %2$d · %3$d%%</string>
+</resources>

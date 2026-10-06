@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_popular_movies">Populární filmy</string>
+    <string name="veylora_popular_series">Populární seriály</string>
+    <string name="veylora_sort_popular">Populární</string>
+    <string name="veylora_sort_random">Náhodně</string>
+    <string name="veylora_filters">Filtry</string>
+    <string name="veylora_filter_any">Libovolné</string>
+    <string name="veylora_filter_genre">Žánr</string>
+    <string name="veylora_filter_min_year">Od roku</string>
+    <string name="veylora_filter_max_year">Do roku</string>
+    <string name="veylora_filter_min_rating">Minimální hodnocení</string>
+    <string name="veylora_filter_max_rating">Maximální hodnocení</string>
+    <string name="veylora_filter_apply">Použít</string>
+    <string name="veylora_filter_clear">Vymazat filtry</string>
+    <string name="veylora_catalog_load_failed">Katalog se nepodařilo načíst.</string>
+    <string name="veylora_catalog_retry">Zkusit znovu</string>
+    <string name="veylora_filter_watched">Stav zhlédnutí</string>
+    <string name="veylora_watched">Zhlédnuté</string>
+    <string name="veylora_unwatched">Nezhlédnuté</string>
+    <string name="veylora_empty">Žádné výsledky</string>
+    <string name="veylora_toolbar_label">Horní lišta</string>
+    <string name="player_black_screen">Zatemnit obrazovku</string>
+    <string name="veylora_filter_minus">−</string>
+    <string name="veylora_filter_plus">+</string>
+    <string name="veylora_genre_coverage">Žánry jsou dostupné u titulů s načtenými podrobnostmi. Při filtrování podle žánru se tituly bez žánru nezobrazují. Pro zobrazení všech vymažte filtr.</string>
+</resources>

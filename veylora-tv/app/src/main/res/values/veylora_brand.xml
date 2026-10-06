@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_toolbar_label">Top bar</string>
+    <string name="home_row_now_trending">Popular movies and series</string>
+    <string name="settings_about_license">© 2026 OwnTV · GPLv3</string>
+    <string name="setup_disclaimer">Veylora IPTV is a media player only. It includes no channels, playlists, or content. You are responsible for adding your own legally accessible Xtream, M3U, or Stalker sources.</string>
+    <string name="setup_set_up_owntv">Set up Veylora IPTV</string>
+    <string name="setup_byo_source_description">Veylora IPTV is a player \u2014 bring your own Xtream, M3U, or Stalker source.</string>
+    <string name="setup_welcome_title">Welcome to Veylora IPTV</string>
+    <string name="setup_line_app_icon">How Veylora IPTV appears on the television home screen</string>
+    <string name="veylora_genre_coverage">Genres cover titles whose details have been loaded. Titles without genre data are excluded while a genre filter is active. Clear the filter to see all titles.</string>
+</resources>

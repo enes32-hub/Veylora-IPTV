@@ -1,0 +1,17 @@
+.gdb_history
+bin
+gen
+jniLibs
+obj
+.gradle
+.idea
+.cxx
+**/*.iml
+build
+local.properties
+*~
+__pycache__/
+
+# Agent instructions — local only, never pushed (same rule as the other OwnTV repos)
+CLAUDE.md
+AGENT_HANDOVER.md

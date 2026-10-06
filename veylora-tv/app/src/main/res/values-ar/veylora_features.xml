@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_popular_movies">أفلام رائجة</string>
+    <string name="veylora_popular_series">مسلسلات رائجة</string>
+    <string name="veylora_sort_popular">رائج</string>
+    <string name="veylora_sort_random">عشوائي</string>
+    <string name="veylora_filters">الفلاتر</string>
+    <string name="veylora_filter_any">أيّ</string>
+    <string name="veylora_filter_genre">النوع</string>
+    <string name="veylora_filter_min_year">من سنة</string>
+    <string name="veylora_filter_max_year">إلى سنة</string>
+    <string name="veylora_filter_min_rating">أدنى تقييم</string>
+    <string name="veylora_filter_max_rating">أعلى تقييم</string>
+    <string name="veylora_filter_apply">تطبيق</string>
+    <string name="veylora_filter_clear">مسح الفلاتر</string>
+    <string name="veylora_catalog_load_failed">تعذّر تحميل الكتالوج.</string>
+    <string name="veylora_catalog_retry">إعادة المحاولة</string>
+    <string name="veylora_filter_watched">حالة المشاهدة</string>
+    <string name="veylora_watched">تمت مشاهدته</string>
+    <string name="veylora_unwatched">لم تتم مشاهدته</string>
+    <string name="veylora_empty">لا توجد نتائج</string>
+    <string name="veylora_toolbar_label">الشريط العلوي</string>
+    <string name="player_black_screen">تعتيم الشاشة</string>
+    <string name="veylora_filter_minus">−</string>
+    <string name="veylora_filter_plus">+</string>
+    <string name="veylora_genre_coverage">تتوفر الأنواع للعناوين التي تم تحميل تفاصيلها. عند تفعيل فلتر النوع، تُستبعد العناوين بلا معلومات نوع. امسح الفلتر لعرض الكل.</string>
+</resources>

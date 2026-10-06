@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_refresh_frequency">Frequenza aggiornamento automatico</string>
+    <string name="veylora_refresh_now">Aggiorna ora</string>
+    <string name="veylora_refresh_scope">Si applica alle liste attuali del profilo. Controllata all’apertura o alla ripresa dell’app.</string>
+    <string name="veylora_refresh_now_description">Scarica gli ultimi canali, film e serie senza cancellare preferiti o cronologia.</string>
+</resources>

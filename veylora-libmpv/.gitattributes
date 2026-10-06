@@ -1,0 +1,5 @@
+# The build scripts run on Linux; a CRLF checkout on Windows must never reach them.
+*.sh text eol=lf
+*.py text eol=lf
+*.yaml text eol=lf
+*.patch text eol=lf

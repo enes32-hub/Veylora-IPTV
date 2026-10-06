@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_popular_movies">熱門電影</string>
+    <string name="veylora_popular_series">熱門影集</string>
+    <string name="veylora_sort_popular">熱門</string>
+    <string name="veylora_sort_random">隨機</string>
+    <string name="veylora_filters">篩選</string>
+    <string name="veylora_filter_any">不拘</string>
+    <string name="veylora_filter_genre">類型</string>
+    <string name="veylora_filter_min_year">起始年份</string>
+    <string name="veylora_filter_max_year">結束年份</string>
+    <string name="veylora_filter_min_rating">最低評分</string>
+    <string name="veylora_filter_max_rating">最高評分</string>
+    <string name="veylora_filter_apply">套用</string>
+    <string name="veylora_filter_clear">清除篩選</string>
+    <string name="veylora_catalog_load_failed">無法載入目錄。</string>
+    <string name="veylora_catalog_retry">重試</string>
+    <string name="veylora_filter_watched">觀看狀態</string>
+    <string name="veylora_watched">已觀看</string>
+    <string name="veylora_unwatched">未觀看</string>
+    <string name="veylora_empty">找不到結果</string>
+    <string name="veylora_toolbar_label">頂端列</string>
+    <string name="player_black_screen">螢幕變黑</string>
+    <string name="veylora_filter_minus">−</string>
+    <string name="veylora_filter_plus">+</string>
+    <string name="veylora_genre_coverage">已載入詳細資料的影片才有類型資訊。啟用類型篩選時，沒有類型資訊的影片會被排除。清除篩選即可查看全部。</string>
+</resources>

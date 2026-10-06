@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_refresh_frequency">自動重新整理頻率</string>
+    <string name="veylora_refresh_now">立即重新整理</string>
+    <string name="veylora_refresh_scope">適用於此個人檔案的現有清單。在開啟或返回應用程式時檢查。</string>
+    <string name="veylora_refresh_now_description">取得最新頻道、電影和影集，不清除收藏或歷史紀錄。</string>
+</resources>

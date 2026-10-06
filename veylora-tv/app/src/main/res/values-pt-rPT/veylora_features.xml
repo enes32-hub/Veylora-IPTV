@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_popular_movies">Filmes populares</string>
+    <string name="veylora_popular_series">Séries populares</string>
+    <string name="veylora_sort_popular">Popular</string>
+    <string name="veylora_sort_random">Aleatório</string>
+    <string name="veylora_filters">Filtros</string>
+    <string name="veylora_filter_any">Qualquer</string>
+    <string name="veylora_filter_genre">Género</string>
+    <string name="veylora_filter_min_year">Desde o ano</string>
+    <string name="veylora_filter_max_year">Até ao ano</string>
+    <string name="veylora_filter_min_rating">Classificação mínima</string>
+    <string name="veylora_filter_max_rating">Classificação máxima</string>
+    <string name="veylora_filter_apply">Aplicar</string>
+    <string name="veylora_filter_clear">Limpar filtros</string>
+    <string name="veylora_catalog_load_failed">Não foi possível carregar o catálogo.</string>
+    <string name="veylora_catalog_retry">Tentar novamente</string>
+    <string name="veylora_filter_watched">Estado de visualização</string>
+    <string name="veylora_watched">Visto</string>
+    <string name="veylora_unwatched">Não visto</string>
+    <string name="veylora_empty">Sem resultados</string>
+    <string name="veylora_toolbar_label">Barra superior</string>
+    <string name="player_black_screen">Escurecer ecrã</string>
+    <string name="veylora_filter_minus">−</string>
+    <string name="veylora_filter_plus">+</string>
+    <string name="veylora_genre_coverage">Os géneros estão disponíveis para títulos com detalhes carregados. O filtro de género exclui títulos sem género. Limpe o filtro para ver todos.</string>
+</resources>

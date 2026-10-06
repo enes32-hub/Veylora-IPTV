@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_popular_movies">জনপ্রিয় চলচ্চিত্র</string>
+    <string name="veylora_popular_series">জনপ্রিয় সিরিজ</string>
+    <string name="veylora_sort_popular">জনপ্রিয়</string>
+    <string name="veylora_sort_random">এলোমেলো</string>
+    <string name="veylora_filters">ফিল্টার</string>
+    <string name="veylora_filter_any">যেকোনো</string>
+    <string name="veylora_filter_genre">ধরন</string>
+    <string name="veylora_filter_min_year">শুরুর বছর</string>
+    <string name="veylora_filter_max_year">শেষের বছর</string>
+    <string name="veylora_filter_min_rating">সর্বনিম্ন রেটিং</string>
+    <string name="veylora_filter_max_rating">সর্বোচ্চ রেটিং</string>
+    <string name="veylora_filter_apply">প্রয়োগ করুন</string>
+    <string name="veylora_filter_clear">ফিল্টার মুছুন</string>
+    <string name="veylora_catalog_load_failed">ক্যাটালগ লোড করা যায়নি।</string>
+    <string name="veylora_catalog_retry">আবার চেষ্টা করুন</string>
+    <string name="veylora_filter_watched">দেখার অবস্থা</string>
+    <string name="veylora_watched">দেখা হয়েছে</string>
+    <string name="veylora_unwatched">দেখা হয়নি</string>
+    <string name="veylora_empty">কোনো ফলাফল পাওয়া যায়নি</string>
+    <string name="veylora_toolbar_label">উপরের বার</string>
+    <string name="player_black_screen">পর্দা কালো করুন</string>
+    <string name="veylora_filter_minus">−</string>
+    <string name="veylora_filter_plus">+</string>
+    <string name="veylora_genre_coverage">যেসব শিরোনামের বিস্তারিত লোড হয়েছে সেগুলোর ধরন পাওয়া যায়। ধরন ফিল্টার চালু থাকলে ধরনহীন শিরোনাম বাদ যায়। সব দেখতে ফিল্টার মুছুন।</string>
+</resources>

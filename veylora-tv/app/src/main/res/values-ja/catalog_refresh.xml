@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_refresh_frequency">自動更新の間隔</string>
+    <string name="veylora_refresh_now">今すぐ更新</string>
+    <string name="veylora_refresh_scope">このプロフィールの現在のリストに適用されます。アプリの起動時や復帰時に確認します。</string>
+    <string name="veylora_refresh_now_description">お気に入りや履歴を削除せず、最新のチャンネル、映画、シリーズを取得します。</string>
+</resources>

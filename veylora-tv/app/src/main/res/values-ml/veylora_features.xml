@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_popular_movies">ജനപ്രിയ സിനിമകൾ</string>
+    <string name="veylora_popular_series">ജനപ്രിയ പരമ്പരകൾ</string>
+    <string name="veylora_sort_popular">ജനപ്രിയം</string>
+    <string name="veylora_sort_random">ക്രമരഹിതം</string>
+    <string name="veylora_filters">ഫിൽട്ടറുകൾ</string>
+    <string name="veylora_filter_any">ഏതുമാകാം</string>
+    <string name="veylora_filter_genre">വിഭാഗം</string>
+    <string name="veylora_filter_min_year">ആരംഭ വർഷം</string>
+    <string name="veylora_filter_max_year">അവസാന വർഷം</string>
+    <string name="veylora_filter_min_rating">കുറഞ്ഞ റേറ്റിംഗ്</string>
+    <string name="veylora_filter_max_rating">ഉയർന്ന റേറ്റിംഗ്</string>
+    <string name="veylora_filter_apply">പ്രയോഗിക്കുക</string>
+    <string name="veylora_filter_clear">ഫിൽട്ടറുകൾ നീക്കുക</string>
+    <string name="veylora_catalog_load_failed">കാറ്റലോഗ് ലോഡ് ചെയ്യാനായില്ല.</string>
+    <string name="veylora_catalog_retry">വീണ്ടും ശ്രമിക്കുക</string>
+    <string name="veylora_filter_watched">കണ്ട നില</string>
+    <string name="veylora_watched">കണ്ടത്</string>
+    <string name="veylora_unwatched">കാണാത്തത്</string>
+    <string name="veylora_empty">ഫലങ്ങളൊന്നും കണ്ടെത്തിയില്ല</string>
+    <string name="veylora_toolbar_label">മുകളിലെ ബാർ</string>
+    <string name="player_black_screen">സ്ക്രീൻ ഇരുണ്ടതാക്കുക</string>
+    <string name="veylora_filter_minus">−</string>
+    <string name="veylora_filter_plus">+</string>
+    <string name="veylora_genre_coverage">വിശദാംശങ്ങൾ ലോഡ് ചെയ്ത ഉള്ളടക്കത്തിന് വിഭാഗം ലഭ്യമാണ്. വിഭാഗം ഫിൽട്ടർ സജീവമായിരിക്കുമ്പോൾ വിഭാഗമില്ലാത്ത ഉള്ളടക്കം കാണിക്കില്ല. എല്ലാം കാണാൻ ഫിൽട്ടർ നീക്കുക.</string>
+</resources>

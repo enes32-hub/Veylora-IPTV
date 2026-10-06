@@ -1,0 +1,48 @@
+OwnTV: revert mpv 13a4bfbc1 "demux_lavf: read HLS and DASH manifests through the stream".
+
+With it, mpv fetches the HLS/DASH playlist itself and FFmpeg only opens the segments, so FFmpeg
+never sees the playlist response (cookies, redirect-bound tokens) and IPTV panels that tie segment
+access to it answer 403 Forbidden on every segment. Found on the TCL, 2026-09-25 (B4U Music; the same
+channel plays on ExoPlayer and on mpv 0.41.0). Drop this patch once upstream fixes it — UPDATING.md.
+
+diff --git a/demux/demux_lavf.c b/demux/demux_lavf.c
+index 9536e62d8..a5707817b 100644
+--- a/demux/demux_lavf.c
++++ b/demux/demux_lavf.c
+@@ -147,7 +147,7 @@ struct format_hack {
+     unsigned int if_flags;      // additional AVInputFormat.flags flags
+     bool max_probe : 1;         // use probescore only if max. probe size reached
+     bool ignore : 1;            // blacklisted
+-    bool nested_network : 1;    // opens nested network URLs, needs the options
++    bool no_stream : 1;         // do not wrap struct stream as AVIOContext
+     bool use_stream_ids : 1;    // has a meaningful native stream IDs (export it)
+     bool fully_read : 1;        // set demuxer.fully_read flag
+     bool detect_charset : 1;    // format is a small text file, possibly not UTF8
+@@ -177,8 +177,8 @@ static const struct format_hack format_hacks[] = {
+     {"mp3", "audio/mpeg", 24, 0.5},
+     {"mp3", NULL,         24, .max_probe = true},
+ 
+-    {"hls", .nested_network = true, .clear_filepos = true, .no_ext_picky = true},
+-    {"dash", .nested_network = true, .clear_filepos = true},
++    {"hls", .no_stream = true, .clear_filepos = true, .no_ext_picky = true},
++    {"dash", .no_stream = true, .clear_filepos = true},
+     {"sdp", .clear_filepos = true, .is_network = true, .no_seek = true},
+     {"mpeg", .use_stream_ids = true},
+     {"mpegts", .use_stream_ids = true},
+@@ -1450,14 +1450,12 @@ static int demux_open_lavf(demuxer_t *demuxer, enum demux_check check)
+             MP_VERBOSE(demuxer, "Option extension_picky=0 was set due to known FFmpeg bugs\n");
+     }
+ 
+-    if ((priv->avif_flags & AVFMT_NOFILE) || priv->format_hack.nested_network) {
++    if ((priv->avif_flags & AVFMT_NOFILE) || priv->format_hack.no_stream) {
+         mp_setup_av_network_options(&dopts, priv->avif->name,
+                                     demuxer->global, demuxer->log);
+         // This might be incorrect.
+         demuxer->seekable = true;
+-    }
+-
+-    if (!(priv->avif_flags & AVFMT_NOFILE)) {
++    } else {
+         void *buffer = av_malloc(lavfdopts->buffersize);
+         if (!buffer)
+             goto fail;

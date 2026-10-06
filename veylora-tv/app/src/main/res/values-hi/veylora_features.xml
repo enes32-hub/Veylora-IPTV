@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_popular_movies">लोकप्रिय फ़िल्में</string>
+    <string name="veylora_popular_series">लोकप्रिय सीरीज़</string>
+    <string name="veylora_sort_popular">लोकप्रिय</string>
+    <string name="veylora_sort_random">यादृच्छिक</string>
+    <string name="veylora_filters">फ़िल्टर</string>
+    <string name="veylora_filter_any">कोई भी</string>
+    <string name="veylora_filter_genre">शैली</string>
+    <string name="veylora_filter_min_year">शुरू का वर्ष</string>
+    <string name="veylora_filter_max_year">अंतिम वर्ष</string>
+    <string name="veylora_filter_min_rating">न्यूनतम रेटिंग</string>
+    <string name="veylora_filter_max_rating">अधिकतम रेटिंग</string>
+    <string name="veylora_filter_apply">लागू करें</string>
+    <string name="veylora_filter_clear">फ़िल्टर हटाएँ</string>
+    <string name="veylora_catalog_load_failed">कैटलॉग लोड नहीं हो सका।</string>
+    <string name="veylora_catalog_retry">फिर कोशिश करें</string>
+    <string name="veylora_filter_watched">देखने की स्थिति</string>
+    <string name="veylora_watched">देखा गया</string>
+    <string name="veylora_unwatched">नहीं देखा गया</string>
+    <string name="veylora_empty">कोई परिणाम नहीं मिला</string>
+    <string name="veylora_toolbar_label">ऊपरी पट्टी</string>
+    <string name="player_black_screen">स्क्रीन काली करें</string>
+    <string name="veylora_filter_minus">−</string>
+    <string name="veylora_filter_plus">+</string>
+    <string name="veylora_genre_coverage">जिन शीर्षकों का विवरण लोड हो चुका है, उनकी शैली उपलब्ध है। शैली फ़िल्टर सक्रिय होने पर बिना शैली वाले शीर्षक नहीं दिखते। सभी देखने के लिए फ़िल्टर हटाएँ।</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_popular_movies">Populære filmer</string>
+    <string name="veylora_popular_series">Populære serier</string>
+    <string name="veylora_sort_popular">Populær</string>
+    <string name="veylora_sort_random">Tilfeldig</string>
+    <string name="veylora_filters">Filtre</string>
+    <string name="veylora_filter_any">Alle</string>
+    <string name="veylora_filter_genre">Sjanger</string>
+    <string name="veylora_filter_min_year">Fra år</string>
+    <string name="veylora_filter_max_year">Til år</string>
+    <string name="veylora_filter_min_rating">Laveste vurdering</string>
+    <string name="veylora_filter_max_rating">Høyeste vurdering</string>
+    <string name="veylora_filter_apply">Bruk</string>
+    <string name="veylora_filter_clear">Nullstill filtre</string>
+    <string name="veylora_catalog_load_failed">Kunne ikke laste katalogen.</string>
+    <string name="veylora_catalog_retry">Prøv igjen</string>
+    <string name="veylora_filter_watched">Visningsstatus</string>
+    <string name="veylora_watched">Sett</string>
+    <string name="veylora_unwatched">Ikke sett</string>
+    <string name="veylora_empty">Ingen treff</string>
+    <string name="veylora_toolbar_label">Øverste linje</string>
+    <string name="player_black_screen">Gjør skjermen svart</string>
+    <string name="veylora_filter_minus">−</string>
+    <string name="veylora_filter_plus">+</string>
+    <string name="veylora_genre_coverage">Sjangre er tilgjengelige for titler med innlastede detaljer. Titler uten sjanger skjules når sjangerfilteret er aktivt. Nullstill filteret for å se alle.</string>
+</resources>

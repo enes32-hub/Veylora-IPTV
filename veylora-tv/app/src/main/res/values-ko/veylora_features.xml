@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_popular_movies">인기 영화</string>
+    <string name="veylora_popular_series">인기 시리즈</string>
+    <string name="veylora_sort_popular">인기순</string>
+    <string name="veylora_sort_random">무작위</string>
+    <string name="veylora_filters">필터</string>
+    <string name="veylora_filter_any">상관없음</string>
+    <string name="veylora_filter_genre">장르</string>
+    <string name="veylora_filter_min_year">시작 연도</string>
+    <string name="veylora_filter_max_year">종료 연도</string>
+    <string name="veylora_filter_min_rating">최소 평점</string>
+    <string name="veylora_filter_max_rating">최대 평점</string>
+    <string name="veylora_filter_apply">적용</string>
+    <string name="veylora_filter_clear">필터 초기화</string>
+    <string name="veylora_catalog_load_failed">카탈로그를 불러오지 못했습니다.</string>
+    <string name="veylora_catalog_retry">다시 시도</string>
+    <string name="veylora_filter_watched">시청 상태</string>
+    <string name="veylora_watched">시청함</string>
+    <string name="veylora_unwatched">미시청</string>
+    <string name="veylora_empty">검색 결과 없음</string>
+    <string name="veylora_toolbar_label">상단 바</string>
+    <string name="player_black_screen">화면 어둡게</string>
+    <string name="veylora_filter_minus">−</string>
+    <string name="veylora_filter_plus">+</string>
+    <string name="veylora_genre_coverage">상세 정보를 불러온 콘텐츠에는 장르 정보가 있습니다. 장르 필터를 적용하면 장르 정보가 없는 콘텐츠는 제외됩니다. 모두 보려면 필터를 초기화하세요.</string>
+</resources>

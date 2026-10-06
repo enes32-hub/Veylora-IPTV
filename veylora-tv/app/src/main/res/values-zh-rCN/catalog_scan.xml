@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="catalog_scan_running">正在更新TMDB信息: %1$d / %2$d · %3$d%%</string>
+    <string name="catalog_scan_done">TMDB更新完成: %1$d / %2$d · %3$d%%</string>
+    <string name="catalog_scan_retry">TMDB等待重试: %1$d / %2$d · %3$d%%</string>
+</resources>

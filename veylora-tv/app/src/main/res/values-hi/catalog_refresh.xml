@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="veylora_refresh_frequency">अपने आप रीफ़्रेश करने का अंतराल</string>
+    <string name="veylora_refresh_now">अभी रीफ़्रेश करें</string>
+    <string name="veylora_refresh_scope">इस प्रोफ़ाइल की मौजूदा सूचियों पर लागू। ऐप खुलने या फिर शुरू होने पर जाँच होती है।</string>
+    <string name="veylora_refresh_now_description">पसंदीदा और इतिहास मिटाए बिना नए चैनल, फ़िल्में और सीरीज़ लाएँ।</string>
+</resources>

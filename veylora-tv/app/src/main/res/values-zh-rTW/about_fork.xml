@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_fork_summary">基於 OwnTV 的獨立應用程式，依照 GNU GPLv3 散布。可按授權條款複製、修改及重新散布。在法律允許的範圍內不提供保證。</string>
+    <string name="about_fork_source_pending">此版本的原始碼尚未發布。公開散布前必須提供對應原始碼與建置說明。</string>
+    <string name="about_fork_license">GPLv3 授權</string>
+    <string name="about_fork_upstream">原始專案</string>
+    <string name="about_fork_community">OwnTV 社群</string>
+    <string name="about_fork_source">原始碼</string>
+    <string name="about_fork_changes">修改</string>
+</resources>
