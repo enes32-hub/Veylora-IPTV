@@ -7,9 +7,6 @@
          host: core is what does the networking and runs the sync/download worker. They merge in
          from there — see core/src/main/AndroidManifest.xml. -->
 
-    <!-- In-app updates: hand the downloaded release APK to the system installer. -->
-    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-
     <!-- MODIFY_AUDIO_SETTINGS is declared by :player-core, which owns VolumeBoost. -->
 
     <!-- Android TV provider writes for Watch Next cards. -->
