@@ -115,7 +115,9 @@ fun StorageBrowser(
         }
     }
     val folderPicker = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocumentTree()) { uri ->
-        if (uri == null) dismiss()
+        // Some TVs resolve OPEN_DOCUMENT_TREE to a stub that returns no folder.
+        // Offer private storage after cancellation too, rather than leaving no usable route.
+        if (uri == null) fallback = true
         else if (StorageAccess.persistAccess(context, uri)) onPickDocumentRoot?.invoke(uri)
         else {
             Toast.makeText(context, R.string.storage_selection_failed, Toast.LENGTH_LONG).show()
