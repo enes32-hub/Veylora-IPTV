@@ -73,7 +73,7 @@ android {
         minSdk = 26
         targetSdk = 36
         // Preserve the installed code for data-safe updates; user-visible product version is independent.
-        versionCode = (System.getenv("VERSION_CODE") ?: "100002").toInt()
+        versionCode = (System.getenv("VERSION_CODE") ?: "100003").toInt()
         versionName = System.getenv("VERSION_NAME") ?: "1.0.0"
 
         // Opt-in local diagnostic APKs keep the rolling playback trace enabled even when they are

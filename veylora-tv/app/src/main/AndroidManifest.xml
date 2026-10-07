@@ -12,16 +12,7 @@
     <!-- Android TV provider writes for Watch Next cards. -->
     <uses-permission android:name="com.android.providers.tv.permission.WRITE_EPG_DATA" />
 
-    <!-- Downloads & backup to user-chosen folders (SAF's document picker is absent on most TVs).
-         READ stays declared through API 32: dropping it left some OEM builds (TCL Android 12,
-         "Permission Shield") with NO grantable storage entry at all — MANAGE_EXTERNAL_STORAGE alone
-         is a special app access their settings never surface. With READ declared, requesting it on
-         API 30–32 opens the system "Files and media" screen, which also lists
-         "Allow management of all files" because MANAGE is declared. -->
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="29" />
-    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
-        tools:ignore="ScopedStorage" />
+    <!-- User-selected documents use SAF grants; TV fallback stays in app-owned storage. -->
 
     <!-- TV-first app, but allow non-TV installs too: touchscreen optional, and leanback is NOT required
          (required=true blocked plain phones / non-TV armv7a boxes that don't report the leanback feature). -->
@@ -40,7 +31,6 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/veylora_app_icon"
         android:label="@string/app_name"
-        android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/veylora_app_icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.OwnTV"

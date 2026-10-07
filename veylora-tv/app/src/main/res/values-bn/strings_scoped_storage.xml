@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">গোপনীয়তা নীতি</string>
+    <string name="storage_picker_unavailable">এই ডিভাইসে সিস্টেম ফাইল নির্বাচক নেই। বাইরের ফাইল নির্বাচন করা যাবে না।</string>
+    <string name="storage_selection_failed">নির্বাচিত ফাইল বা ফোল্ডার খোলা যায়নি। ফাইলের ধরন, আকার ও অ্যাক্সেস পরীক্ষা করুন।</string>
+</resources>

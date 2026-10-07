@@ -362,6 +362,7 @@ fun DownloadsScreen(
             title = stringResource(R.string.settings_download_folder_title),
             mode = BrowseMode.FOLDER,
             onPick = { vm.setDownloadRoot(it.absolutePath); showFolderPicker = false },
+            onPickDocumentRoot = { vm.setDownloadRoot(it.toString()); showFolderPicker = false },
             onDismiss = { showFolderPicker = false },
         )
     }

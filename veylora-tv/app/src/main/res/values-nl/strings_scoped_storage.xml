@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">Privacybeleid</string>
+    <string name="storage_picker_unavailable">Dit apparaat heeft geen systeemkiezer voor bestanden. Externe bestanden kunnen niet worden geselecteerd.</string>
+    <string name="storage_selection_failed">Het geselecteerde bestand of de map kon niet worden geopend. Controleer het bestandstype, de grootte en de toegang.</string>
+</resources>

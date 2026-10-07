@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">Политика конфиденциальности</string>
+    <string name="storage_picker_unavailable">На этом устройстве нет системного средства выбора файлов. Выбор внешних файлов недоступен.</string>
+    <string name="storage_selection_failed">Не удалось открыть выбранный файл или папку. Проверьте тип, размер и права доступа.</string>
+</resources>

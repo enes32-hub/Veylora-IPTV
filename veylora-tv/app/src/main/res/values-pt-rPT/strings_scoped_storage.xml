@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">Política de privacidade</string>
+    <string name="storage_picker_unavailable">Este dispositivo não tem seletor de ficheiros do sistema. Não é possível selecionar ficheiros externos.</string>
+    <string name="storage_selection_failed">Não foi possível abrir o ficheiro ou a pasta selecionados. Verifique o tipo, o tamanho e as permissões de acesso.</string>
+</resources>

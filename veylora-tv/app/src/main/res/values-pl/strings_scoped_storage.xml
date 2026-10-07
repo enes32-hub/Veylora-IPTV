@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">Polityka prywatności</string>
+    <string name="storage_picker_unavailable">To urządzenie nie ma systemowego selektora plików. Wybieranie plików zewnętrznych jest niedostępne.</string>
+    <string name="storage_selection_failed">Nie można otworzyć wybranego pliku lub folderu. Sprawdź typ, rozmiar i uprawnienia dostępu.</string>
+</resources>

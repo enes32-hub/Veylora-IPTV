@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">Integritetspolicy</string>
+    <string name="storage_picker_unavailable">Den här enheten saknar systemets filväljare. Externa filer kan inte väljas.</string>
+    <string name="storage_selection_failed">Det gick inte att öppna den valda filen eller mappen. Kontrollera filtyp, storlek och åtkomst.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">Politique de confidentialité</string>
+    <string name="storage_picker_unavailable">Cet appareil ne dispose pas de sélecteur de fichiers système. La sélection de fichiers externes est indisponible.</string>
+    <string name="storage_selection_failed">Impossible d’ouvrir le fichier ou le dossier sélectionné. Vérifiez le type, la taille et les droits d’accès.</string>
+</resources>

@@ -640,6 +640,10 @@ internal fun AboutPage(vm: MoreCountsViewModel, entry: FocusRequester, onOpenLan
     val context = LocalContext.current
     var showLicense by remember { mutableStateOf(false) }
     val sourceUrl = stringResource(R.string.about_fork_source_url)
+    val privacyUrl = "https://github.com/enes32-hub/Veylora-IPTV/blob/main/PRIVACY.md"
+    val privacyQr = remember(privacyUrl) {
+        tv.own.owntv.core.companion.CompanionLink.renderQr(privacyUrl)?.asImageBitmap()
+    }
     val sourceQr = remember(sourceUrl) {
         tv.own.owntv.core.companion.CompanionLink.renderQr(sourceUrl)?.asImageBitmap()
     }
@@ -684,6 +688,25 @@ internal fun AboutPage(vm: MoreCountsViewModel, entry: FocusRequester, onOpenLan
                         icon = OwnTVIcon.INFO, boxed = true, modifier = Modifier.focusRequester(entry),
                     )
                     Text(sourceUrl, style = stageText(16, 500), color = accent)
+                    Text(stringResource(R.string.more_about_scan), style = stageText(14, 500), color = StageColors.Muted)
+                }
+            }
+        }
+        StageTile(Modifier.fillMaxWidth()) {
+            Row(horizontalArrangement = Arrangement.spacedBy(20.mpx), verticalAlignment = Alignment.CenterVertically) {
+                privacyQr?.let { qr ->
+                    Image(qr, stringResource(R.string.about_privacy_policy),
+                        Modifier.size(112.mpx).background(Color.White).padding(4.mpx))
+                }
+                Column(verticalArrangement = Arrangement.spacedBy(6.mpx)) {
+                    StageTool(stringResource(R.string.about_privacy_policy), onClick = {
+                        try {
+                            context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(privacyUrl)))
+                        } catch (_: ActivityNotFoundException) {
+                            android.widget.Toast.makeText(context, privacyUrl, android.widget.Toast.LENGTH_LONG).show()
+                        }
+                    }, icon = OwnTVIcon.INFO, boxed = true)
+                    Text(privacyUrl, style = stageText(16, 500), color = accent)
                     Text(stringResource(R.string.more_about_scan), style = stageText(14, 500), color = StageColors.Muted)
                 }
             }

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">Gizlilik politikası</string>
+    <string name="storage_picker_unavailable">Bu cihazda sistem dosya seçicisi yok. Dışarıdan dosya seçimi desteklenmiyor.</string>
+    <string name="storage_selection_failed">Seçilen dosya veya klasör açılamadı. Dosya türünü, boyutunu ve erişimi kontrol edin.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">Privatlivspolitik</string>
+    <string name="storage_picker_unavailable">Denne enhed har ingen systemfilvælger. Eksterne filer kan ikke vælges.</string>
+    <string name="storage_selection_failed">Den valgte fil eller mappe kunne ikke åbnes. Kontrollér filtype, størrelse og adgang.</string>
+</resources>

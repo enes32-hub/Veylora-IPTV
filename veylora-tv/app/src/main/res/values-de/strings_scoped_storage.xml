@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">Datenschutzerklärung</string>
+    <string name="storage_picker_unavailable">Dieses Gerät hat keine Systemdateiauswahl. Externe Dateien können nicht ausgewählt werden.</string>
+    <string name="storage_selection_failed">Die ausgewählte Datei oder der Ordner konnte nicht geöffnet werden. Prüfe Dateityp, Größe und Zugriff.</string>
+</resources>

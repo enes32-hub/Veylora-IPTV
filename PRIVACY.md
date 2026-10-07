@@ -24,7 +24,7 @@ Third-party services determine their own retention and processing practices. The
 
 ## Storage access and security
 
-When permitted, the app accesses local or USB storage to open selected playlists and subtitles, select images, and save or manage downloads and recordings. It does not upload the contents of your storage to Alquariz Core for advertising or analytics. Android automatic app backup is disabled in this build.
+The app does not request access to all files. It uses the Android system picker for files and folders you select. Selected files are copied into app-private storage so they remain available after restart. On TVs without a system picker, external file selection is unavailable and downloads or recordings use app-owned storage. Uninstalling removes files in app-owned storage, including on removable drives. It does not upload the contents of your storage to Alquariz Core for advertising or analytics. Android automatic app backup is disabled in this build.
 
 We use HTTPS where the selected service supports it. User-supplied sources can use unencrypted HTTP, and we cannot guarantee encryption for every configured connection. Do not share playlist URLs containing passwords, access tokens, or private diagnostic information. No method of storage or transmission is completely secure.
 
@@ -67,7 +67,7 @@ Merkezi bir Veylora hesap hizmetimiz yoktur. İzleme geçmişiniz veya hata gün
 
 ## Depolama ve güvenlik
 
-İzin verdiğinizde yerel veya USB depolama; seçilen oynatma listeleri, altyazılar ve görseller ile indirme ve kayıt işlemleri için kullanılır. Dosyalarınız reklam veya analiz amacıyla Alquariz Core'a yüklenmez. Bu sürümde Android'in otomatik uygulama yedeklemesi kapalıdır.
+Uygulama tüm dosyalara erişim izni istemez. Seçtiğiniz dosya ve klasörler için Android sistem seçicisi kullanılır. Seçilen dosyalar yeniden başlatma sonrasında da kullanılabilmeleri için uygulamanın özel alanına kopyalanır. Sistem seçicisi bulunmayan televizyonlarda dışarıdan dosya seçimi desteklenmez; indirme ve kayıtlar uygulamaya ait alana yapılır. Uygulamayı kaldırmak, çıkarılabilir sürücülerdekiler dahil uygulamaya ait alandaki dosyaları siler. Dosyalarınız reklam veya analiz amacıyla Alquariz Core'a yüklenmez. Bu sürümde Android'in otomatik uygulama yedeklemesi kapalıdır.
 
 Hizmet desteklediğinde HTTPS kullanılır. Eklediğiniz kaynaklar şifrelenmemiş HTTP kullanabilir; bütün bağlantıların şifreli olduğunu garanti edemeyiz. Parola veya erişim belirteci içeren kaynak adreslerini ve özel hata bilgilerini paylaşmayın. Hiçbir saklama veya aktarım yöntemi tamamen güvenli değildir.
 

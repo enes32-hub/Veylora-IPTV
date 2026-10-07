@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">സ്വകാര്യതാ നയം</string>
+    <string name="storage_picker_unavailable">ഈ ഉപകരണത്തിൽ സിസ്റ്റം ഫയൽ സെലക്ടർ ഇല്ല. പുറത്തുള്ള ഫയലുകൾ തിരഞ്ഞെടുക്കാനാവില്ല.</string>
+    <string name="storage_selection_failed">തിരഞ്ഞെടുത്ത ഫയലോ ഫോൾഡറോ തുറക്കാനായില്ല. ഫയൽ തരം, വലുപ്പം, പ്രവേശനാനുമതി എന്നിവ പരിശോധിക്കുക.</string>
+</resources>

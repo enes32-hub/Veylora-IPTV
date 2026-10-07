@@ -107,7 +107,7 @@ object StorageAccess {
                 volumeName = dir.parentFile?.parentFile?.parentFile?.parentFile?.name
                     ?.takeIf { removable && it.isNotBlank() },
             )
-        }
+        }.ifEmpty { listOf(StorageRoot(RootKind.APP, defaultRoot(context))) }
     }
 
     /**

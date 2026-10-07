@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">गोपनीयता नीति</string>
+    <string name="storage_picker_unavailable">इस डिवाइस में सिस्टम फ़ाइल चयनकर्ता नहीं है। बाहरी फ़ाइलें नहीं चुनी जा सकतीं।</string>
+    <string name="storage_selection_failed">चुनी गई फ़ाइल या फ़ोल्डर नहीं खोला जा सका। फ़ाइल का प्रकार, आकार और पहुँच जाँचें।</string>
+</resources>

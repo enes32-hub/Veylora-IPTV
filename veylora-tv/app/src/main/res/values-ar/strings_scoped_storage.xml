@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">سياسة الخصوصية</string>
+    <string name="storage_picker_unavailable">لا يحتوي هذا الجهاز على منتقي ملفات النظام. اختيار الملفات الخارجية غير متاح.</string>
+    <string name="storage_selection_failed">تعذر فتح الملف أو المجلد المحدد. تحقق من نوع الملف وحجمه وإمكانية الوصول إليه.</string>
+</resources>

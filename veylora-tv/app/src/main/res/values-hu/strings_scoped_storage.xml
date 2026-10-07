@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">Adatvédelmi tájékoztató</string>
+    <string name="storage_picker_unavailable">Ezen az eszközön nincs rendszerfájlválasztó. Külső fájlok nem választhatók ki.</string>
+    <string name="storage_selection_failed">A kijelölt fájl vagy mappa nem nyitható meg. Ellenőrizd a fájl típusát, méretét és a hozzáférést.</string>
+</resources>

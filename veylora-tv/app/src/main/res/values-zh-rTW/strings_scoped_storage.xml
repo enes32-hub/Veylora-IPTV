@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">隱私權政策</string>
+    <string name="storage_picker_unavailable">此裝置沒有系統檔案選擇器，無法選取外部檔案。</string>
+    <string name="storage_selection_failed">無法開啟所選檔案或資料夾。請檢查檔案類型、大小和存取權限。</string>
+</resources>

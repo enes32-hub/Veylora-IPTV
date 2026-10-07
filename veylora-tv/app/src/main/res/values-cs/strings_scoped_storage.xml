@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">Zásady ochrany osobních údajů</string>
+    <string name="storage_picker_unavailable">Toto zařízení nemá systémový výběr souborů. Výběr externích souborů není dostupný.</string>
+    <string name="storage_selection_failed">Vybraný soubor nebo složku nelze otevřít. Zkontrolujte typ, velikost a přístup.</string>
+</resources>

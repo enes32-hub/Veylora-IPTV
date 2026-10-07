@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">隐私政策</string>
+    <string name="storage_picker_unavailable">此设备没有系统文件选择器，无法选择外部文件。</string>
+    <string name="storage_selection_failed">无法打开所选文件或文件夹。请检查文件类型、大小和访问权限。</string>
+</resources>

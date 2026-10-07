@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">Privacy policy</string>
+    <string name="storage_picker_unavailable">This device has no system file picker. External file selection is unavailable.</string>
+    <string name="storage_selection_failed">The selected file or folder could not be opened. Check the file type, size and access.</string>
+</resources>

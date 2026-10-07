@@ -1,5 +1,14 @@
 # Technical Kotlin literals explicitly excluded from translation.
 # schema-version: 1
+1	empty	core/src/main/java/tv/own/owntv/core/storage/SelectedFileImport.kt	\0
+1	file-path	core/src/main/java/tv/own/owntv/core/storage/SelectedFileImport.kt	-$safeName
+1	assertion	core/src/main/java/tv/own/owntv/core/storage/SelectedFileImport.kt	Cannot create import folder
+1	assertion	core/src/main/java/tv/own/owntv/core/storage/SelectedFileImport.kt	Selected file exceeds size limit
+1	assertion	core/src/main/java/tv/own/owntv/core/storage/SelectedFileImport.kt	Unsupported file type
+1	regex	core/src/main/java/tv/own/owntv/core/storage/SelectedFileImport.kt	[^\\p{L}\\p{N}._ -]
+1	file-path	core/src/main/java/tv/own/owntv/core/storage/SelectedFileImport.kt	_
+1	file-path	core/src/main/java/tv/own/owntv/core/storage/SelectedFileImport.kt	selected
+1	file-path	core/src/main/java/tv/own/owntv/core/storage/SelectedFileImport.kt	selected-
 # Format: <count>\t<category>\t<relative path>\t<content with \t/\n escaped>
 # category empty: Empty literal; no user-visible text.
 # category assertion: Reviewed developer-only assertion text.

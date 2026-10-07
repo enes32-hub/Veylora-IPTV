@@ -1,5 +1,9 @@
 # Technical Kotlin literals explicitly excluded from translation.
 # schema-version: 1
+1	assertion	app/src/main/java/tv/own/owntv/ui/components/StorageBrowser.kt	Missing selected document
+1	file-path	app/src/main/java/tv/own/owntv/ui/components/StorageBrowser.kt	selected-documents
+1	mime	app/src/main/java/tv/own/owntv/ui/components/StorageBrowser.kt	*/*
+1	url	app/src/main/java/tv/own/owntv/features/more/MorePages.kt	https://github.com/enes32-hub/Veylora-IPTV/blob/main/PRIVACY.md
 # Format: <count>\t<category>\t<relative path>\t<content with \t/\n escaped>
 # category empty: Empty literal; no user-visible text.
 # category assertion: Reviewed developer-only assertion text.

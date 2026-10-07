@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">개인정보 처리방침</string>
+    <string name="storage_picker_unavailable">이 기기에는 시스템 파일 선택기가 없습니다. 외부 파일을 선택할 수 없습니다.</string>
+    <string name="storage_selection_failed">선택한 파일 또는 폴더를 열 수 없습니다. 파일 형식, 크기 및 접근 권한을 확인하세요.</string>
+</resources>

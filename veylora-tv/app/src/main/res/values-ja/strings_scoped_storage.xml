@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_privacy_policy">プライバシーポリシー</string>
+    <string name="storage_picker_unavailable">この端末にはシステムのファイル選択機能がありません。外部ファイルは選択できません。</string>
+    <string name="storage_selection_failed">選択したファイルまたはフォルダを開けませんでした。ファイルの種類、サイズ、アクセス権を確認してください。</string>
+</resources>
